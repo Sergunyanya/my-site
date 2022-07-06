@@ -1,0 +1,70 @@
+.container {
+	width: 1335px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+	height: 1000px;
+}
+.header {
+	background: url('../img/fon.jpg') no-repeat center top;
+}
+
+.offer h1 {
+	font-family: cursive;
+	font-size: 50px;
+	text-align: center;
+	margin: 215px;
+	margin-bottom: 30px;
+	margin-top: -930px;
+	letter-spacing: 0.02em
+}
+.perenos p {
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+	margin-top: -50px;
+	padding: 90px;
+	
+}
+.container1 {
+	width: 1335px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+	height: 2500px;
+}
+.about {
+	background: url('../img/Rectang1.jpg') no-repeat center top;
+}
+.offer h2 {
+	font-size: 30px;
+	font-family: cursive;
+	font-weight: normal;
+	text-align: center;
+	margin-top: -2360px;
+	padding: 0px 100px 50px 100px;
+}
+.container_slider_css{margin:0 auto;width:1000px;height:600px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+.info h3{
+	font-size: 30px;
+	font-family: cursive;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 100px;
+}
+.knopka {
+	margin-left: 450px;
+}
